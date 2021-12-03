@@ -57,7 +57,7 @@ but we continue use <subaccname>.<username>.testnet
 
 	Now feel them with NEAR tutorial sources (https://docs.near.org/docs/develop/contracts/rust/intro):
 cargo.toml 
-[package]
+```[package]
 name = "rust-counter-tutorial"
 version = "0.1.0"
 authors = ["NEAR Inc <hello@near.org>"]
@@ -77,11 +77,11 @@ lto = true
 debug = false
 panic = "abort"
 # Opt into extra safety checks on arithmetic operations https://stackoverflow.com/a/64136471/249801
-overflow-checks = true
+overflow-checks = true```
 
 lib.rs
 
-//! This contract implements simple counter backed by storage on blockchain.
+```//! This contract implements simple counter backed by storage on blockchain.
 //!
 //! The contract provides methods to [increment] / [decrement] counter and
 //! [get it's current value][get_num] or [reset].
@@ -251,7 +251,7 @@ mod tests {
         // confirm that we received -1 when calling get_num
         assert_eq!(0, contract.get_num());
     }
-}
+}```
 
 4. Build contract with  running command inside a project directory: 	cargo build --target wasm32-unknown-unknown —release
 	project compiled at - <projectdirectory>/target/wasm32-unknown-unknown/release/rust_counter_tutorial.wasm
