@@ -3,14 +3,14 @@ Tutorial for first steps with NEAR cli and api)
 
 
 Ingredients:
-	1 - NEAR account (Wallet)
-	2 - NEAR CLI
-	3 - NEAR contract
-	4 - Basic Web app + NEAR API  
+	1. NEAR account (Wallet)
+	2. NEAR CLI
+	3. NEAR contract
+	4. Basic Web app + NEAR API  
 
 Ingredient 1 - NEAR account
 
-First of all, we need an NEAR account, so follow the link https://wallet.testnet.near.org (it’s a NEAR playground for developers, and called “testnet”), on the page click Create Account and follow the instructions. As a result of preparing ingredient - you get an account name - <username>.testnet, the account is filled with 200 NEAR (it’s a testNEAR for test purposes).
+First of all, we need an NEAR account, so follow the link [Wallet](https://wallet.testnet.near.org) (it’s a NEAR playground for developers, and called “testnet”), on the page click Create Account and follow the instructions. As a result of preparing ingredient - you get an account name - <username>.testnet, the account is filled with 200 NEAR (it’s a testNEAR for test purposes).
 When you done - proceed to ingredient 2 - NEAR CLI. 
 
 Ingredient 2 - NEAR CLI
